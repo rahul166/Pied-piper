@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MANIT Flask</title>
+</head>
+<body>
+	<h1>List of Cancer Patients</h1>
+	<ul>
+		{% for x in n %}
+			{% if x[0] == 's' %}
+				<li>{{ x }}</li>
+			{% endif %}
+		{% endfor %}
+
+	</ul>
+		
+</body>
+</html>
